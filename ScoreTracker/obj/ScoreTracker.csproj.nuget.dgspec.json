@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\inter\\source\\repos\\ScoreTracker\\ScoreTracker\\ScoreTracker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\inter\\source\\repos\\ScoreTracker\\ScoreTracker\\ScoreTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inter\\source\\repos\\ScoreTracker\\ScoreTracker\\ScoreTracker.csproj",
+        "projectName": "ScoreTracker",
+        "projectPath": "C:\\Users\\inter\\source\\repos\\ScoreTracker\\ScoreTracker\\ScoreTracker.csproj",
+        "packagesPath": "C:\\Users\\inter\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inter\\source\\repos\\ScoreTracker\\ScoreTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\inter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "BeatSaberModdingTools.Tasks": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

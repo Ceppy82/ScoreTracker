@@ -1,0 +1,8 @@
+
+<settings-container>
+	<dropdown-list-setting text='Saved Profiles' on-click='profile-changed' value='selected-profile' choices='saved-profiles'/>
+	<bool-setting text='Enable Tracking' value='tracking-enabled' apply-on-change='true'></bool-setting>
+	<bool-setting text='Enable Comparing' value='comparing-enabled' apply-on-change='true'></bool-setting>
+
+</settings-container>
+

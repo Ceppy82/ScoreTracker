@@ -1,0 +1,16 @@
+
+<settings-container>
+
+	<bool-setting text='Enabled' value='enabled' apply-on-change='true'></bool-setting>
+
+	<dropdown-list-setting text='Saved Profiles' click-event='profile-changed' apply-on-change='true'  value='selected-profile' choices='saved-profiles'/>
+	
+	<bool-setting text='Enable Tracking'  value='tracking-enabled' ></bool-setting>
+	<bool-setting text='Enable Comparing'  value='comparing-enabled' ></bool-setting>
+
+	<horizontal horizontal-fit='PreferredSize' spacing='10'>
+		<button text='APPLY' on-click='apply-btn-action'/>
+	</horizontal>
+
+</settings-container>
+
