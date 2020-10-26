@@ -38,11 +38,11 @@ namespace ScoreTracker.UI.ViewController
 
 
         [UIValue("saved-profiles")]
-        public List<object> savedprofiles = Tools.GetAllNames();
+        private List<object> savedprofiles = Tools.GetAllNames();
 
 
         [UIValue("tracking-enabled")]
-        public bool trackingenabled
+        private bool trackingenabled
         {
             get 
             {
@@ -76,7 +76,8 @@ namespace ScoreTracker.UI.ViewController
             
 
         [UIValue("comparing-enabled")]
-        public bool comparingenabled
+        private bool comparingenabled
+
         {
             get
             {
@@ -111,14 +112,12 @@ namespace ScoreTracker.UI.ViewController
 
 
         [UIValue("selected-profile")]
-        public string selectedprofile = ScoreTrackerController.profileList[0].playerName;
+        private string selectedprofile = ScoreTrackerController.profileList[0].playerName;
 
         
         [UIAction("profile-changed")]
-        public void ProfileChanged()
+        protected void ProfileChanged()
         {
-            Plugin.Log?.Debug($"{name}: ProfileChanged");
-
             foreach (var item in ScoreTrackerController.profileList)
                 if (item.playerName == selectedprofile)
                 {
@@ -131,9 +130,7 @@ namespace ScoreTracker.UI.ViewController
         [UIAction("apply-btn-action")]
         public void Apply()
         {
-            Plugin.Log?.Debug($"{name}: Apply");
             ScoreTrackerController.ConfigVariable.SetBool("settings", "enabled", enabled);
         }
-
     }
 }
