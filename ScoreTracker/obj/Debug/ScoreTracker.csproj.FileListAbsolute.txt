@@ -20,3 +20,4 @@ C:\Users\inter\source\repos\ScoreTracker\ScoreTracker\obj\Debug\ScoreTracker.csp
 C:\Users\inter\source\repos\ScoreTracker\ScoreTracker\obj\Debug\ScoreTracker.csproj.CopyComplete
 C:\Users\inter\source\repos\ScoreTracker\ScoreTracker\obj\Debug\ScoreTracker.dll
 C:\Users\inter\source\repos\ScoreTracker\ScoreTracker\obj\Debug\ScoreTracker.pdb
+C:\Users\inter\source\repos\ScoreTracker\ScoreTracker\bin\Debug\Resources\LiteDB.dll
